@@ -9,11 +9,12 @@ body {
   padding: 0;
 }
 
-header {
+aside {
   height: 100%;
   width: 200px;
   position: fixed;
   overflow: auto;
+  display: block;
 }
 
 .container {
@@ -22,7 +23,7 @@ header {
 
 .block {
   display: block;
-  padding: 10px;
+  padding: 8px 16px;
   width: 100%;
   text-align: left;
 }
