@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
   background-color: aqua;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 body {
@@ -17,6 +20,10 @@ aside {
   display: block;
 }
 
+h2 {
+  font-size: 40px;
+}
+
 .container {
   padding: 10px;
 }
@@ -27,4 +34,16 @@ aside {
   width: 100%;
   text-align: left;
   text-decoration: none;
+}
+
+section {
+  padding: 8px 16px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  display: block;
 }
