@@ -43,6 +43,10 @@ h1 {
   margin-left: 0px;
 }
 
+.block:hover {
+  background-color: black;
+}
+
 .margin-right {
   margin-right: 15px;
 }
@@ -80,6 +84,7 @@ h4 {
 .work-image {
   display: flex;
   border: solid aliceblue;
+  color: red;
   max-height: 150px;
   min-height: 150px;
   flex-basis: calc(50% - 1em);
@@ -87,6 +92,13 @@ h4 {
   margin: 5px;
   text-decoration: none;
   background-size: 100%;
+  background-color: gray;
+  background-blend-mode: soft-light;
+  transition: all 1s;
+}
+
+.work-image:hover {
+  background-color: black;
 }
 
 .work-image div {
@@ -122,4 +134,8 @@ h5 {
 
 .run-buddy {
   background-image: url(../images/02-run-buddy.jpg);
+}
+
+h6 {
+  font-size: 20px;
 }
