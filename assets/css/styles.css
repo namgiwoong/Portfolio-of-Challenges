@@ -1,9 +1,6 @@
 * {
   box-sizing: border-box;
   background-color: aqua;
-  max-width: 80%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 body {
@@ -11,6 +8,9 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.5em;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 aside {
@@ -34,17 +34,21 @@ h1 {
   margin-left: 0;
 }
 
-h2 {
-  font-size: 40px;
-}
-
 .block {
   display: block;
-  padding: 5px 20px;
+  padding: 5px;
   width: 100%;
   text-align: left;
   text-decoration: none;
   margin-left: 0px;
+}
+
+.margin-right {
+  margin-right: 15px;
+}
+
+h2 {
+  font-size: 40px;
 }
 
 section {
@@ -63,16 +67,31 @@ article {
   padding: 10px;
 }
 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 h4 {
   font-size: 20px;
 }
 
 .work-image {
   display: flex;
-  border: 5px;
+  border: solid aliceblue;
   max-height: 150px;
   min-height: 150px;
-  padding: 10px;
+  flex-basis: calc(50% - 1em);
+  align-items: flex-end;
+  margin: 5px;
+  text-decoration: none;
+  background-size: 100%;
+}
+
+.work-image div {
+  background-color: aliceblue;
+  padding: 8px;
 }
 
 footer {
@@ -81,6 +100,8 @@ footer {
 
 h5 {
   font-size: 20px;
+  margin: 0;
+  background-color: aliceblue;
 }
 
 .led-wall {
