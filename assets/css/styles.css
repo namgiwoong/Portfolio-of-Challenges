@@ -10,11 +10,12 @@ body {
   font-family: Arial;
   margin: 0;
   padding: 0;
+  line-height: 1.5em;
 }
 
 aside {
   height: 100%;
-  width: 200px;
+  width: 300px;
   position: fixed;
   overflow: auto;
   display: block;
