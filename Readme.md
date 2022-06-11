@@ -10,11 +10,11 @@ The motivation of this portfolio project is to create web application from scrat
 
 - Made aside element fixed to the web so it dose not move while .scrolling down
 
--configured the nav link so UI scrolls to corresponding section.
+- configured the nav link so UI scrolls to corresponding section.
 
--added margine-left=300px for individual parents elements so it doesn't hide behind aside element.
+- added margine-left=300px for individual parents elements so it doesn't hide behind aside element.
 
--worked on the hover function so when I hover on the links the color changes.
+- worked on the hover function so when I hover on the links the color changes.
 
 ## Links
 
