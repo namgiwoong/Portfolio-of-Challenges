@@ -97,6 +97,11 @@ h4 {
   transition: all 1s;
 }
 
+.work-image:first-child {
+  min-height: 400px;
+  flex-basis: 100%;
+}
+
 .work-image:hover {
   background-color: black;
 }
