@@ -144,3 +144,14 @@ h5 {
 h6 {
   font-size: 20px;
 }
+
+@media screen and (max-width: 980px) {
+  .work-image,
+  .work-image:first-child {
+    flex-basis: 100%;
+  }
+
+  .work-image:first-child {
+    min-height: 150px;
+  }
+}
